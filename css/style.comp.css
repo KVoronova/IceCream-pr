@@ -128,7 +128,7 @@ body {
     height: 27.5rem;
     margin-right: 2.5rem;
     z-index: 5;
-    background-image: url("./img/ice-two.jpg");
+    background-image: url("../img/ice-two.jpg");
     background-size: cover; }
   .block-image_third {
     width: 14.375rem;
