@@ -133,7 +133,7 @@ body {
   .block-image_third {
     width: 14.375rem;
     height: 27.5rem;
-    background-image: url("./img/ice-trd.jpg");
+    background-image: url("../img/ice-trd.jpg");
     background-size: cover; }
 
 .header-container {
