@@ -1,0 +1,113 @@
+.content-block {
+    height: 35.625rem;
+    display: flex;
+
+}
+
+
+.block-image {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 5rem 3.5rem 4rem;
+
+
+    &_first {
+        width: 14.375rem;
+        height: 27.5rem;
+        margin-right: 2.5rem;
+        background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.327), rgba(206, 91, 132, 0.73)),
+            url('/img/ice-one.jpg');
+        background-size: cover;
+        z-index: 5;
+    }
+
+    &_second {
+        width: 14.375rem;
+        height: 27.5rem;
+        margin-right: 2.5rem;
+        z-index: 5;
+        background-image: url('/img/ice-two.jpg');
+        background-size: cover;
+    }
+
+    &_third {
+        width: 14.375rem;
+        height: 27.5rem;
+        background-image: url('/img/ice-trd.jpg');
+        background-size: cover;
+    }
+
+}
+
+
+.header-container {
+    width: 14.375rem;
+    margin-right: 2.5rem;
+
+
+    &_main {
+        font-size: 3.5rem;
+        color: var(--color-secondary);
+        font-weight: 300;
+        text-transform: uppercase;
+        font-family: "DM Mono";
+        margin-top: 6.25rem;
+        line-height: 3.75rem;
+
+        z-index: 1;
+        animation-name: moveInLeft;
+        animation-duration: 3s;
+
+
+    }
+}
+
+.secondary-header {
+    font-family: "DM Mono";
+    font-weight: 300;
+    font-size: 2.25rem;
+    color: var(--color-blue);
+    text-transform: uppercase;
+    line-height: 2.5rem;
+    text-align: right;
+    margin-top: 2.5rem;
+
+    z-index: 1;
+    animation-name: moveInRight;
+    animation-duration: 3s;
+}
+
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(1);
+    }
+
+}

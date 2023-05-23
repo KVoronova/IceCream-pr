@@ -1,0 +1,48 @@
+.navigation {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 12.75rem 0 16.125rem;
+
+
+    &_item {
+        color: var(--color-secondary);
+        font-family: 'Open sans';
+        font-weight: 400;
+        font-size: 0.813rem;
+        line-height: 2;
+        margin-top: 2.8rem;
+        display: flex;
+        margin-right: 3.25rem;
+
+    }
+
+    &__link:link,
+    &__link:visited {
+        color: var(--color-secondary);
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+
+    }
+
+    &__link:hover,
+    &__link:active {
+        color: var(--color-secondary);
+        font-weight: 700;
+    }
+
+}
+
+.header-logo {
+    width: 4.125rem;
+    height: 3.5rem;
+    margin: 1.438rem 4.813rem 0 1.563rem;
+}

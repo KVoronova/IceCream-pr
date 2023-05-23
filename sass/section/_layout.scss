@@ -1,0 +1,60 @@
+.container {
+    max-width: 75rem;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: var(--color-primary);
+    height: 40.625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-offer {
+    height: 19.375rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-container {
+    background-color: var(--color-primary);
+    height: 34.063rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.laboratory {
+    background-color: var(--color-white);
+    height: 18.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cafe {
+    height: 24.375rem;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: row;
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+.ourworld {
+    height: 16.875rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    padding: 3.438rem 5rem 3.438rem 5rem;
+}
+
+.footer__block {
+    height: 5.938rem;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+
+}

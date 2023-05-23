@@ -1,0 +1,37 @@
+.offer-header {
+    padding: 5rem 50rem 0 10.625rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-third {
+    color: var(--color-secondary);
+    font-family: 'DM Mono';
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: right;
+
+}
+
+
+.text-container {
+    padding: 0 10.625rem 5rem 27.5rem;
+
+    &__text {
+        font-family: 'Open Sans';
+        color: var(--color-blue);
+        font-size: 0.813rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        //padding: 0 10.625rem 5rem 27.5rem;
+    }
+}
+
+.link_offer {
+    color: var(--color-blue);
+    text-decoration: underline;
+    font-weight: 600;
+}

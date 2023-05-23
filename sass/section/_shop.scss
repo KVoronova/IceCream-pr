@@ -1,0 +1,115 @@
+.card_one {
+    padding: 5rem 2.5rem 1.25rem 5rem;
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-1rem) scale(1.03);
+    }
+}
+
+.img_lime-bar {
+    width: 14.375rem;
+    height: 17.5rem;
+}
+
+.card_two {
+    padding: 5rem 2.5rem 1.25rem 0;
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-1rem) scale(1.03);
+    }
+}
+
+.shop_block {
+    padding: 11.563rem 2.5rem 0 2.5rem;
+    width: 14.375rem;
+}
+
+.card_third {
+    padding: 5rem 5rem 1.25rem 2.5rem;
+    transition: transform .3s;
+
+    &:hover {
+        transform: translateY(-1rem) scale(1.03);
+    }
+}
+
+.header_shop {
+    font-size: 1.125rem;
+    color: var(--color-secondary);
+    line-height: 1.25rem;
+    font-weight: 400;
+    font-family: 'DM Mono';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text_shop {
+    width: 14.375rem;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 0.813rem;
+    line-height: 1.25rem;
+    color: var(--color-blue);
+    text-align: center;
+    padding-top: 0.313rem;
+}
+
+.price_shop {
+    color: var(--color-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: 'DM Mono';
+    line-height: 1.25rem;
+    text-align: center;
+    padding-top: 0.313rem;
+    transition: transform .3s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.8);
+    }
+}
+
+.header-tr {
+    color: var(--color-secondary);
+    font-family: 'DM Mono';
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.shop-btn {
+    width: 7.5rem;
+    height: 1.875rem;
+    background-color: var(--color-secondary);
+    border-radius: 0.313rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 0.9rem;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+
+    &:active {
+        background-color: var(--color-blue);
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(34, 34, 34, 0.63);
+    }
+}
+
+
+.btn-text {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 0.75rem;
+    text-align: center;
+}

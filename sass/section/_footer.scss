@@ -1,0 +1,92 @@
+.footer {
+    display: flex;
+
+    &__block {
+        padding: 0 4rem 0 4rem;
+    }
+
+    &__logo {
+        width: 5.375rem;
+        height: 4.875rem;
+        padding-top: 1.063rem;
+    }
+
+    &__nav {
+        padding-bottom: 2.813rem;
+
+    }
+
+    &__nav-ft {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 1.575rem 7rem 0 12rem;
+    }
+
+    &__nav-item {
+        color: var(--color-secondary);
+        font-family: 'Open sans';
+        font-weight: 400;
+        font-size: 0.813rem;
+        line-height: 2;
+        display: flex;
+        margin-right: 3.25rem;
+    }
+
+    &__nav-link:link,
+    &__nav-link:visited {
+        color: var(--color-secondary);
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+
+    }
+
+    &__nav-link:hover,
+    &__nav-link:active {
+        color: var(--color-secondary);
+        font-weight: 700;
+    }
+
+
+    &__icon-block {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        padding-top: 1.688rem;
+        //padding-left: 1rem;
+
+    }
+
+    &__icon {
+        width: 2.6rem;
+        height: 2rem;
+        padding-right: 1rem;
+
+    }
+
+
+    &__text {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 0.625rem;
+        color: #A9CADC;
+        text-align: center;
+        padding-top: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+.icon__link {
+
+    &:hover {
+        filter: drop-shadow(0 0 3px #CE5B84);
+    }
+
+    &:hover path {
+        fill: #CE5B84;
+    }
+
+
+}
